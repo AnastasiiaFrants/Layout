@@ -920,7 +920,7 @@ color: #FFFFFF;
 
 
 /* Footer styles end*/
-/*Media header start*/
+/*Media  start*/
 .header__burger{
     display: none;
 	width: 30px;
@@ -987,6 +987,7 @@ color: #FFFFFF;
 	
 
 @media screen and (max-width:760px){
+
 	.header__burger {
 		display: block;
 	}
@@ -1115,7 +1116,8 @@ display: flex;
 }
 .footer_menu-title{
 	width: 100%;
-	text-align: center;
+	
+	font-size: 1.5em;
 }
 .places_card-pic_lg{
 	height: 283px;
@@ -1164,4 +1166,4 @@ display: flex;
 }
 
 }
-	/*Media header end*/
+	/*Media  end*/
