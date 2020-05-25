@@ -1117,7 +1117,7 @@ display: flex;
 .footer_menu-title{
 	width: 100%;
 	
-	font-size: 2em;
+	font-size: 1.5em;
 }
 .places_card-pic_lg{
 	height: 283px;
@@ -1165,5 +1165,21 @@ display: flex;
 
 }
 
+}
+@media (max-height:600px){
+	.header__wrapper {
+	
+	padding-top: 26px;
+}
+.header__burger{
+   
+	top:46px;
+	
+}
+.search_media{
+	top:46px;
+}
+.intro{
+	padding-bottom: 330px;
 }
 	/*Media  end*/
